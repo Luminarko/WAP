@@ -1,0 +1,104 @@
+h1 {
+    position: absolute;
+    left: 870px;
+    top: 0;
+    font-size: 5em;
+}
+.btn1{
+    background-color: red;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10%;
+    top: 300px;
+    left: 650px;
+    font-weight: bold;
+}
+.btn2{
+    background-color: red;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10%;
+    top: 300px;
+    right: 650px;
+    font-weight: bold;   
+}
+.btn3{
+    background-color: red;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10%;
+    top: 750px;
+    right: 860px;
+    font-weight: bold;
+}
+body{
+    background-color: #808080;
+}
+h2{
+    position: absolute;
+    top: 200px;
+    left: 800px;
+    font-size: 2em;
+}
+img{
+    position: absolute;
+    top: 400px;
+    left: 815px;
+    border: solid 3px black;
+}
+.text{
+    position: absolute;
+    bottom: 100px;
+    right: 895px;
+    font-size: 20px;
+}
+.dole{
+    height: 200px;
+    width: 960px;
+    position: absolute;
+    background-color: black;
+    border: solid 2px red;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 0px 100% 0px 0px;
+    border-right: transparent;
+}
+.dole1{
+    height: 200px;
+    width: 960px;
+    position: absolute;
+    background-color: black;
+    border: solid 2px red;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 100% 0px 0px 0px;
+    border-left: transparent;
+}
+.dole2{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    background-color: black;
+    border: solid 2px red;
+    bottom: 50px;
+    right: 938px;
+    border-radius: 100% 100% 100% 100%;
+}
+.nahore{
+    position: absolute;
+    width: 1920px;
+    height: 40px;
+    margin: 0px;
+    left: 0px;
+    top: 150px;
+    background-color: black;
+    border: solid 2px red;
+    border-left: 0px;
+    border-right: 0px;
+}
