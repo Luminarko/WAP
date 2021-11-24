@@ -1,0 +1,91 @@
+.slunce{
+    width: 85px;
+    height: 85px;
+    position: fixed;
+    left: calc(50% - 45px);
+    top: calc(50% - 45px);
+    background-color: yellow;
+    border-radius: 50%;
+}
+.slunce1{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    left: calc(50% - 36px);
+    top: calc(50% - 36px);
+    background-color: transparent;
+    animation-name: wiggle;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+.slunce2{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    left: calc(50% - 30px);
+    top: calc(50% - 30px);
+    background-color: transparent;
+    animation-name: wiggle;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: reverse;
+}
+.slunce3{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    left: calc(50% - 30px);
+    top: calc(50% - 40px);
+    background-color: transparent;
+    animation-name: wiggle;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+.sluncePohyb1{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: yellow;
+    border-radius: 50%;
+
+}
+.sluncePohyb2{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.sluncePohyb3{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.stin1{
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    left: calc(50% - 13px);
+    top: calc(50% - 13px);
+    background-color: transparent;
+    animation-name: wiggle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.stinPohyb1{
+    position: absolute;
+    position:fixed;
+    z-index: +5;
+    top: -40px;
+    left: -40px;
+    background-color: rgba(255, 255, 0, 70%);
+    border-color: transparent;
+    border-radius: 100%;
+    box-shadow: 50px 50px 100px 50px rgba(255, 255, 0, 100%);
+}

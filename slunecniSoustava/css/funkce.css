@@ -1,0 +1,15 @@
+@keyframes pohyb {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes wiggle {
+    100%{ transform: rotate(140deg); }
+    100%{ transform: rotate(-50deg); }
+    100%{ transform: rotate(320deg); }
+    100%{ transform: rotate(-180deg); }
+    100%{ transform: rotate(360deg); }
+}
