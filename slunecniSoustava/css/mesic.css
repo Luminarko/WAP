@@ -20,7 +20,7 @@
     border-radius: 50%;
     animation-name: pohyb;
     animation-fill-mode: forwards;
-    animation-duration: 1s;
+    animation-duration: 3.5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
