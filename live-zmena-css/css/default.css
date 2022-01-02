@@ -1,0 +1,75 @@
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(grey), color-stop(white), to(gray));
+  background-image: linear-gradient(grey, white, gray);
+  background-size: 1em 70em;
+  font-family: 'Courier New';
+}
+
+header {
+  font-size: 1.5em;
+  text-align: center;
+  border-bottom: solid .3em;
+  border-bottom-color: black;
+  text-shadow: .1em .2em darkgray;
+}
+
+footer {
+  border-top: solid .2em black;
+  font-size: 1.1em;
+  position: fixed;
+  bottom: 0;
+}
+
+main {
+  font-size: 1.5em;
+  padding: 2em;
+}
+
+main h2 {
+  font-weight: bold;
+}
+
+main p {
+  font-style: italic;
+}
+
+table {
+  background-color: gray;
+  width: 30em;
+  height: 15em;
+  border-collapse: collapse;
+  position: relative;
+  left: 38%;
+}
+
+table td {
+  text-align: center;
+  border: solid 4px black;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+a {
+  font-size: 2em;
+  text-align: center;
+  color: black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: 1em;
+  bottom: 1.2em;
+  position: fixed;
+}
+
+button {
+  position: relative;
+  top: -100px;
+  left: 150em;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 20% 20% 20% 20%;
+  color: gray;
+  width: 8em;
+  height: 2em;
+}
+/*# sourceMappingURL=default.css.map */
