@@ -1,0 +1,81 @@
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd078), color-stop(orange), to(#ffd078));
+  background-image: linear-gradient(#ffd078, orange, #ffd078);
+  background-size: 1em 70em;
+  font-family: Arial;
+  color: black;
+}
+
+header {
+  font-size: 1.5em;
+  text-align: left;
+  border-bottom: solid .3em;
+  border-bottom-color: black;
+  color: black;
+  text-shadow: .1em .2em sandybrown;
+}
+
+footer {
+  border-top: solid .2em black;
+  font-size: 1.1em;
+  position: fixed;
+  bottom: 0;
+  color: black;
+}
+
+main {
+  font-size: 1.5em;
+  padding: 2em;
+  text-align: center;
+}
+
+main h2 {
+  font-weight: 900;
+  text-align: center;
+}
+
+main ol {
+  list-style-type: lower-alpha;
+  text-align: left;
+}
+
+table {
+  background-color: white;
+  width: 30em;
+  height: 15em;
+  border-collapse: collapse;
+  position: relative;
+  left: 2%;
+}
+
+table td {
+  text-align: center;
+  border: dotted 4px orange;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+a {
+  font-size: 2em;
+  text-align: center;
+  color: darkgreen;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  top: .8em;
+  right: 1em;
+}
+
+button {
+  position: relative;
+  top: 65em;
+  left: 150em;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 20% 20% 20% 20%;
+  color: white;
+  width: 8em;
+  height: 2em;
+}
+/*# sourceMappingURL=orangeStyle.css.map */
