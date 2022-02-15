@@ -48,7 +48,7 @@ function setup() {
 function draw() {
   background(69, 69, 69, 1);
     for(Name of names){
-            stroke(5)
+            stroke(5);
             textFont(customFont);
             textSize(70);
             Name.Look();
