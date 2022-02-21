@@ -1,0 +1,81 @@
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(gray), color-stop(white), to(#696969));
+  background-image: linear-gradient(gray, white, #696969);
+  background-attachment: fixed;
+}
+
+body h2 {
+  text-align: center;
+}
+
+body h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+body .img {
+  position: relative;
+  width: 5em;
+  height: 5em;
+  left: 4em;
+  top: -5em;
+}
+
+body .form {
+  text-align: center;
+  position: relative;
+}
+
+body .form .name {
+  position: relative;
+  left: 1.7em;
+}
+
+body .form .lastName {
+  position: relative;
+  left: 1em;
+}
+
+body .form .submit {
+  position: relative;
+  margin-top: 1em;
+  left: 8.4em;
+}
+
+body .checkBox {
+  position: relative;
+  text-align: center;
+}
+
+body .checkBox .submitBox {
+  margin-top: 1em;
+}
+
+body table {
+  border: solid 2px black;
+  border-collapse: collapse;
+  position: relative;
+  left: 46%;
+}
+
+body table td {
+  border: solid 2px black;
+  border-collapse: collapse;
+  margin: 0em;
+  padding: .5em;
+  text-align: center;
+}
+
+body p {
+  font-size: 1.2em;
+  text-align: center;
+  padding-left: 5em;
+  padding-right: 5em;
+  font-family: "monospace";
+}
+
+body .list {
+  text-align: center;
+  list-style-position: inside;
+}
+/*# sourceMappingURL=style.css.map */

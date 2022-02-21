@@ -1,0 +1,67 @@
+body{
+    background-image: linear-gradient(gray, white, #696969);
+    background-attachment: fixed;
+    h2{
+        text-align: center;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 3em;
+    }
+    .img{
+        position: relative;
+        width: 5em;
+        height: 5em;
+        left: 4em;
+        top: -5em;
+    }
+    .form{
+        text-align: center;
+        position:relative;
+        .name{
+            position: relative;
+            left: 1.7em;
+        }
+        .lastName{
+            position: relative;
+            left: 1em;
+        }
+        .submit{
+            position: relative;
+            margin-top: 1em;
+            left: 8.4em;
+        }
+    }
+    .checkBox{
+        position: relative;
+        text-align: center;
+        .submitBox{
+            margin-top: 1em;
+        }
+    }
+    table{
+        border: solid 2px black;
+        border-collapse: collapse;
+        position: relative;
+        left: 46%;
+        td{
+            border: solid 2px black;
+            border-collapse: collapse;        
+            margin: 0em;
+            padding: .5em;
+            text-align: center;
+        }
+    }
+    p{
+        font-size: 1.2em;
+        text-align: center;
+        padding-left: 5em;
+        padding-right: 5em;
+        font-family: "monospace";
+    }
+    .list{
+        text-align: center;
+        list-style-position: inside;
+    }
+}
