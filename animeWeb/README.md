@@ -8,5 +8,5 @@ http://nevimcojeit.borec.cz/
 ![Seo-servis](screenshotss/Seo-service-animeWeb.png)
 
 ## Screenshoty z webu
-![First View](screenshotss/animeWeb-screebshot-1.png)
-![Burgir Menu](screenshotss/animeWeb-screebshot-2.png)
+![First View](screenshotss/animeWeb-screenshot-1.png)
+![Burgir Menu](screenshotss/animeWeb-screenshot-2.png)
