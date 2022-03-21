@@ -1,0 +1,41 @@
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0758a7), color-stop(#ffdd33), to(50%));
+  background-image: linear-gradient(#0758a7, #ffdd33, 50%);
+  background-attachment: fixed;
+}
+
+.gallery {
+  display: -ms-grid;
+  display: grid;
+  gap: 1em;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  overflow: hidden;
+}
+
+@media (min-width: 500px) {
+  .gallery {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 800px) {
+  .gallery {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.gallery > div {
+  padding: 1em;
+  background-color: #444;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+.gallery > div:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+/*# sourceMappingURL=style.css.map */
